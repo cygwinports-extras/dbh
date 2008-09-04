@@ -1,0 +1,10 @@
+--- origsrc/dbh-4.5.0/src/Makefile.am	2006-05-23 12:50:21.000000000 -0500
++++ src/dbh-4.5.0/src/Makefile.am	2008-09-04 04:00:23.143130700 -0500
+@@ -22,6 +22,7 @@
+ libdbh_la_LDFLAGS =						\
+ 	-version-info @DBH_VERSION_MAJOR@:@DBH_VERSION_MINOR@:0	\
+ 	-release @DBH_VERSION_MAJOR@.@DBH_VERSION_MINOR@	\
++	-no-undefined	\
+ 	-export-dynamic
+ 
+ pkgconfigdir = $(libdir)/pkgconfig

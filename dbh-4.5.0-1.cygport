@@ -1,0 +1,10 @@
+DESCRIPTION="Disk based hashtable library"
+HOMEPAGE="http://dbh.sourceforge.net/"
+SRC_URI="mirror://sourceforge/dbh/${P}.tar.gz"
+PATCH_URI="4.5.0-no-undefined.patch"
+
+PKG_NAMES="${PN} lib${PN}${PV_MAJ_MIN} lib${PN}-devel"
+PKG_HINTS="src lib devel"
+PKG_CONTENTS[0]=	# empty
+PKG_CONTENTS[1]="usr/bin/cyg${PN}-${PV_MAJ_MIN/./-}-${PVP[0]}.dll usr/share/doc/"
+PKG_CONTENTS[2]="usr/include/ usr/lib/"

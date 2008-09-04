@@ -1,0 +1,7 @@
+category: Database
+requires: cygwin
+external-source: dbh
+sdesc: "Disk-based hashtable library (runtime)"
+ldesc: "Disk based hashes is a method to create multidimensional binary 
+trees on disk. This library permits the extension of database concept 
+to a plethora of electronic data, such as graphic information."
